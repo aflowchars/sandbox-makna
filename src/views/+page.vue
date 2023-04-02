@@ -1,5 +1,5 @@
 <script setup>
-import Layout from '@/components/templates/Layout.vue'
+import Layout from "@/components/templates/Layout.vue";
 </script>
 
 <template>
@@ -7,12 +7,19 @@ import Layout from '@/components/templates/Layout.vue'
     title="Makna Sandbox"
     desc="This is page contain several building block component that isolated from main project"
   >
-    <section class="flex gap-6">
+    <section class="flex flex-wrap gap-6">
       <RouterLink
         to="/button"
         class="text_lg font-medium underline underline-offset-8"
       >
         Button
+      </RouterLink>
+
+      <RouterLink
+        to="/input"
+        class="text_lg font-medium underline underline-offset-8"
+      >
+        Input
       </RouterLink>
 
       <RouterLink
