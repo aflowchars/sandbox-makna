@@ -66,10 +66,10 @@ defineProps({
     </label>
 
     <input
-      class="text_sm w-full rounded-md border border-neutral-300 py-2.5 px-3.5 font-normal tracking-wide text-neutral-800 ring-2 ring-transparent transition-all duration-300 ease-in-out placeholder:text-neutral-400 focus-within:ring-2 focus:outline-none"
+      class="text_sm w-full rounded-md border py-2.5 px-3.5 font-normal tracking-wide text-neutral-800 ring-2 ring-transparent transition-all duration-300 ease-in-out placeholder:text-neutral-400 focus-within:ring-2 focus:outline-none"
       :class="{
-        'bg-[#F9FAFB]': isDisabled,
-        ' focus-within:ring-primary-surface': !isError,
+        'bg-[#F9FAFB] border-neutral-300': isDisabled,
+        ' focus-within:ring-primary-surface border-neutral-300': !isError,
         'border-error-main focus-within:ring-error-surface': isError,
       }"
       @input="$emit('update:modelValue', $event.target.value)"
