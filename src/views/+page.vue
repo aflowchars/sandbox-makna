@@ -28,6 +28,13 @@ import Layout from "@/components/templates/Layout.vue";
       >
         Modal
       </RouterLink>
+
+      <RouterLink
+        to="/chart"
+        class="text_lg font-medium underline underline-offset-8"
+      >
+        Chart
+      </RouterLink>
     </section>
   </Layout>
 </template>

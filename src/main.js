@@ -1,7 +1,9 @@
-import { createApp } from 'vue'
-import './style.css'
-import router from './router'
+import { createApp } from "vue";
+import VueApexCharts from "vue3-apexcharts";
 
-import App from './App.vue'
+import "./style.css";
+import router from "./router";
 
-createApp(App).use(router).mount('#app')
+import App from "./App.vue";
+
+createApp(App).use(VueApexCharts).use(router).mount("#app");

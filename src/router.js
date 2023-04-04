@@ -23,6 +23,11 @@ const router = createRouter({
       name: "Modal",
       component: () => import("@/views/modal/+page.vue"),
     },
+    {
+      path: "/chart",
+      name: "Chart",
+      component: () => import("@/views/chart/+page.vue"),
+    },
   ],
 });
 
