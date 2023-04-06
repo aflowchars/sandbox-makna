@@ -1,5 +1,5 @@
 <script setup>
-import Layout from "@/components/templates/Layout.vue";
+import Layout from '@/components/templates/Layout.vue'
 </script>
 
 <template>
@@ -34,6 +34,27 @@ import Layout from "@/components/templates/Layout.vue";
         class="text_lg font-medium underline underline-offset-8"
       >
         Chart
+      </RouterLink>
+
+      <RouterLink
+        to="/loader"
+        class="text_lg font-medium underline underline-offset-8"
+      >
+        Loader
+      </RouterLink>
+
+      <RouterLink
+        to="/datepicker"
+        class="text_lg font-medium underline underline-offset-8"
+      >
+        Datepicker
+      </RouterLink>
+
+      <RouterLink
+        to="/calendar"
+        class="text_lg font-medium underline underline-offset-8"
+      >
+        Calendar
       </RouterLink>
     </section>
   </Layout>

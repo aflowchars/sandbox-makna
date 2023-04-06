@@ -1,10 +1,13 @@
 <script setup>
-import ApexChart from "vue3-apexcharts";
-import { Layout } from "@/components/templates";
+import ApexChart from 'vue3-apexcharts'
 
-const options = {};
+import { Layout } from '@/components/templates'
 
-const series = [44, 55, 41, 17, 15];
+const options = {
+  series: [90, 10],
+  labels: ['Apple', 'Mango'],
+  colors: ['#6DC7FF', '#FF3366']
+}
 </script>
 
 <template>
@@ -14,7 +17,7 @@ const series = [44, 55, 41, 17, 15];
         width="500"
         type="donut"
         :options="options"
-        :series="series"
+        :series="options.series"
       ></ApexChart>
     </div>
   </Layout>
