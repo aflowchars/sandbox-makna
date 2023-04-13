@@ -1,16 +1,15 @@
 import { createApp } from 'vue'
 import VueApexCharts from 'vue3-apexcharts'
-import VueTailwindDatepicker from 'vue-tailwind-datepicker'
-import { ProCalendar } from '@lbgm/pro-calendar-vue'
 
 import './style.css'
 import router from './router'
 
 import App from './App.vue'
 
+import VueTailwindDatepicker from 'vue-tailwind-datepicker'
+
 createApp(App)
-  .use(VueApexCharts)
   .use(VueTailwindDatepicker)
-  .use(ProCalendar)
+  .use(VueApexCharts)
   .use(router)
   .mount('#app')
