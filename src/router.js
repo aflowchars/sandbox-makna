@@ -34,6 +34,11 @@ const router = createRouter({
       component: () => import('@/views/loader/+page.vue')
     },
     {
+      path: '/loader-full',
+      name: 'Loader Full',
+      component: () => import('@/views/loader-full/+page.vue')
+    },
+    {
       path: '/datepicker',
       name: 'Datepicker',
       component: () => import('@/views/datepicker/+page.vue')

@@ -12,7 +12,8 @@ console.log(dateValue)
 
 <template>
   <Layout>
-    <vue-tailwind-datepicker
+    <VueTailwindDatepicker
+      placeholder="Start Date -> End Date"
       v-model="dateValue"
       class="text-base font-medium text-netral-500 placeholder:text-netral-400"
     />

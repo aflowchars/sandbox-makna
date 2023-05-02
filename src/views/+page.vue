@@ -44,6 +44,13 @@ import Layout from '@/components/templates/Layout.vue'
       </RouterLink>
 
       <RouterLink
+        to="/loader-full"
+        class="text_lg font-medium underline underline-offset-8"
+      >
+        Loader Full
+      </RouterLink>
+
+      <RouterLink
         to="/datepicker"
         class="text_lg font-medium underline underline-offset-8"
       >
