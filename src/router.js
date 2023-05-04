@@ -47,6 +47,16 @@ const router = createRouter({
       path: '/calendar',
       name: 'Calendar',
       component: () => import('@/views/calendar/+page.vue')
+    },
+    {
+      path: '/chat-reply',
+      name: 'Chat Reply',
+      component: () => import('@/views/chat-reply/+page.vue')
+    },
+    {
+      path: '/modal-previous',
+      name: 'Modal Previous',
+      component: () => import('@/views/modal-previous/+page.vue')
     }
   ]
 })

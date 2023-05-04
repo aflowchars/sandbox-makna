@@ -1,5 +1,5 @@
 <script setup>
-import Layout from '@/components/templates/Layout.vue'
+import { Layout } from '@/components/templates'
 </script>
 
 <template>
@@ -62,6 +62,20 @@ import Layout from '@/components/templates/Layout.vue'
         class="text_lg font-medium underline underline-offset-8"
       >
         Calendar
+      </RouterLink>
+
+      <RouterLink
+        to="/chat-reply"
+        class="text_lg font-medium underline underline-offset-8"
+      >
+        Chat for reply
+      </RouterLink>
+
+      <RouterLink
+        to="/modal-previous"
+        class="text_lg font-medium underline underline-offset-8"
+      >
+        Modal Previous
       </RouterLink>
     </section>
   </Layout>
